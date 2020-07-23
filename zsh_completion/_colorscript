@@ -1,0 +1,33 @@
+#compdef colorscript
+
+DIR_COLORSCRIPTS="/opt/shell-color-scripts/colorscripts"
+
+function _colorscript {
+    local curcontext="$curcontext" state line
+    typeset -A opt_args
+
+    _arguments \
+        '1: :->subcmd'\
+        '2: :->colorscript'
+
+    case $state in
+    subcmd)
+        _arguments "1:subcmd:((help:'Print help'\
+            list:'List all color scripts.'\
+            exec:'Run a specific color script.'\
+            random:'Run a random color script.'))"
+        ;;
+    *)
+        case $words[2] in
+        "exec")
+            for colorscript in $(/usr/bin/ls ${DIR_COLORSCRIPTS}); do
+                compadd ${colorscript}
+            done
+            ;;
+        *)
+            ;;
+        esac
+    esac
+}
+
+_colorscript "$@"
