@@ -20,18 +20,18 @@ Included are 50+ beautiful terminal color scripts.
     colorscript --help
     Description: A collection of terminal color scripts.
   
-    Usage: colorscript [OPTION] [SCRIPT NAME/INDEX]
-  
+    Usage: `colorscript [OPTION] [SCRIPT NAME/INDEX]`
+      ```sh
       -h, --help, help        Print this help.
       -l, --list, list        List all color scripts.
       -r, --random, random    Run a random color script.
       -e, --exec, exec        Run a spesific color script by SCRIPT NAME or INDEX.
-
+      ```
 For even more fun, add the following line to your .bashrc or .zshrc and you will run a random color script each time you open a terminal:
-
+```sh
     ### RANDOM COLOR SCRIPT ###
     colorscript random
-
+```
 # Credits
 
 This is essentially a compilation of other people's work, so here are some credits:
