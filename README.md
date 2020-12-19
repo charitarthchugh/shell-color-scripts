@@ -2,7 +2,7 @@
 
 ![Screenshot of shell-color-scripts](https://gitlab.com/dwt1/dotfiles/raw/master/.screenshots/dotfiles12.png)
 
-Fork of Derek Taylor (DistroTube)'s colorscripts on [Gitlab](https://gitlab.com/dwt1/shell-color-scripts)
+Fork of Derek Taylor (DistroTube)'s colorscripts on [Gitlab](https://gitlab.com/dwt1/shell-color-scripts).
 Included are 50+ beautiful terminal color scripts.
 
 > I have removed his PACKAGEBUILD, but theoretically that should work (cannot test, not on Arch Linux).
