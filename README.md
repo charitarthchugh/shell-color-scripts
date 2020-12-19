@@ -15,22 +15,19 @@ Included are 50+ beautiful terminal color scripts.
 
 - lolcat(for pacman-large variations)
   
-  # Usage
-  
-    colorscript --help
-    Description: A collection of terminal color scripts.
-  
-    Usage: `colorscript [OPTION] [SCRIPT NAME/INDEX]`  
-      
-      -h, --help, help        Print this help.  
-      -l, --list, list        List all color scripts.  
-      -r, --random, random    Run a random color script.  
-      -e, --exec, exec        Run a spesific color script by SCRIPT NAME or INDEX.  
-      
+# Usage  
+    
+  ```sh  
+   Usage: colorscript [OPTION] [SCRIPT NAME/INDEX] 
+   -h, --help, help        Print this help.  
+   -l, --list, list        List all color scripts.  
+   -r, --random, random    Run a random color script.  
+   -e, --exec, exec        Run a spesific color script by SCRIPT NAME or INDEX.  
+  ```    
 For even more fun, add the following line to your .bashrc or .zshrc and you will run a random color script each time you open a terminal:  
 ```
-    ### RANDOM COLOR SCRIPT ###
-    colorscript random
+### RANDOM COLOR SCRIPT ###
+colorscript random
 ```  
 # Credits
 
